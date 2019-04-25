@@ -16,13 +16,13 @@
                     <lightning:button variant="Neutral" label="Upload File" title="Upload File" onclick="{! c.enableUpload }" />
                 </aura:if>
 
-                <aura:if isTrue="{!and(v.fileRecord != undefined, v.fileRecord.Status__c == 'Saved')}">
+                <aura:if isTrue="{!and(v.fileRecord != undefined, v.fileRecord.Status__c == 'Submitted')}">
                     <lightning:button variant="destructive" label="Delete Previous File" title="Delete Previous File" onclick="{! c.deleteFile }" />
                     <lightning:button variant="Neutral" label="Upload New File" title="Upload New File" onclick="{! c.enableUpload }" />
                 </aura:if>
                     
                 
-                <aura:if isTrue="{!and(and(v.fileRecord != undefined, v.fileRecord.Id != undefined),v.fileRecord.Status__c != 'Saved')}">
+                <aura:if isTrue="{!and(and(v.fileRecord != undefined, v.fileRecord.Id != undefined),v.fileRecord.Status__c != 'Submitted')}">
                     <lightning:fileUpload aura:id="fileUpload"
                         name="fileUploader"
                         class="fileUpload fielo-file-upload--button-text"
