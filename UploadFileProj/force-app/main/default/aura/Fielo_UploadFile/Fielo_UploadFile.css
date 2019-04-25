@@ -1,0 +1,71 @@
+.THIS.fielo-file-upload {
+    margin-bottom: 20px;
+}
+.THIS .newImage {
+    border: 1px solid #cccccc; 
+    border-radius: 4px; 
+    padding: 5px;
+}
+.THIS .forceContentFileCard {
+    width: 100% !important;
+}
+.THIS .fileUpload .slds-form-element__label {
+    display: none;
+}
+.THIS .fielo-note-text {
+    padding: 10px;
+    font-size: 10px;
+    color: #666666;
+}
+.THIS .image {
+    position: relative;
+}
+.THIS .image img {
+    width: 100%;
+}
+.THIS .deleteButton {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 4px;
+    background: #ffffff;
+}
+
+.THIS .slds-file-selector__button{
+    max-width: 40px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 2px 12px 6px;
+}
+
+.THIS .newImage .slds-form-element__control{
+    display: flex;
+    justify-content: center;
+}
+
+.THIS .newImage .slds-file-selector_files .slds-file-selector__body{
+    padding: 15px 30px;
+}
+
+.THIS .fielo-file-upload--title{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.THIS .fielo-file-upload--title-container{
+    margin: 10px 3px;
+}
+
+.THIS .fielo-file-upload--sub-title-container{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.THIS .newImage .slds-input{
+    border: 1px dashed rgb(221, 219, 218);
+}
+
+.THIS .fielo-file-upload--ulr-input_container{
+    margin: 0 10px 3px;
+}
